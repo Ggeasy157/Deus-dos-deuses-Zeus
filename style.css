@@ -1,0 +1,117 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do cabeçalho */
+header {
+    border: 2px solid #333;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Estilos dos artigos */
+article {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+article h1 {
+    font-size: 24px;
+    color: goldenrod;
+}
+
+article p {
+    font-size: 16px;
+    color: #555;
+}
+
+article ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+article li {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Estilos do rodapé */
+footer {
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+}
+
+footer a {
+    color: #333;
+}
+
+/* Estilos das imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    justify-content: right;
+    
+}
+.familia{
+    display: inline;
+    align-items: center;
+}
+.comeco{
+    justify-content: left;
+}
+#perfil{
+    background-color: #fff;
+    color: #333;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+/*Recursos*/
+#recursos{
+    padding-top: 50px; padding-bottom: 50px;
+}
+#recursos-linha{
+    width: 80%; margin: auto; display: flex; align-items: center;justify-content: space-around; flex-wrap: wrap;
+}
+.recursos-coluna{
+    height: 300px; flex-basis: 25%; text-align: center; box-shadow: 0 0 5px rgba(0, 0, 0, 0.3)
+}
+.recursos-coluna:hover{
+    cursor: pointer;
+}
+.recursos-coluna img{
+    width: 100px; margin-bottom: 30px;
+}
+.recursos-coluna h4{
+    margin-top: 15px; margin-bottom: 15px; font-size: 20px; font-weight: 400;
+}
+
+#quadrado {
+    background: lightblue;
+    width: 100px;
+    height: 100px;
+}
